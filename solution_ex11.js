@@ -37,7 +37,7 @@ switch (vehicleType) {
 }
 
 if (flag == true) {
-  total = baseFee + bonusFee * (distance - 1);
+  let total = baseFee + bonusFee * (distance - 1);
 
   console.log("HÓA ĐƠN");
   console.log("Phương tiện:", vehicleType);
